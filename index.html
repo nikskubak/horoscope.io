@@ -1,150 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Horoscope</title>
+    <title>Bugünün Burç Yorumları</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #FFFFFF;
+            color: #333333;
             margin: 0;
             padding: 0;
         }
-
-        header {
-            background-color: #ffffff;
-            text-align: center;
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
             padding: 20px;
-        }
-
-        header h1 {
-            color: #4CAF50;
-            font-size: 36px;
-        }
-
-        .horoscope-section {
-            margin: 20px auto;
-            max-width: 1000px;
-            padding: 20px;
-            background-color: #fff;
+            background-color: #f9f9f9;
+            border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-
-        .horoscope-sign {
+        h1 {
+            font-size: 30px;
+            color: #5F39FF;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
             margin-bottom: 30px;
         }
-
-        .horoscope-sign h2 {
-            color: #4CAF50;
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-
-        .horoscope-sign p {
-            font-size: 16px;
-            line-height: 1.5;
-            color: #555;
-        }
-
         footer {
-            background-color: #ffffff;
-            text-align: center;
-            padding: 10px;
-            margin-top: 40px;
+            margin-top: 30px;
             font-size: 14px;
-            color: #777;
-        }
-
-        .button {
-            display: inline-block;
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-            margin-top: 20px;
-            cursor: pointer;
-        }
-
-        .button:hover {
-            background-color: #45a049;
+            color: #888;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Today's Horoscope</h1>
-        <p>Discover what the stars have in store for you today!</p>
-    </header>
 
-    <div class="horoscope-section">
-        <div class="horoscope-sign">
-            <h2>Aries (Koç)</h2>
-            <p>Today is a great day to take bold steps. Trust your instincts and take action. Luck is on your side, so be fearless in your decisions!</p>
-        </div>
+<div class="container">
+    <h1>Bugünün Burç Yorumları</h1>
+    <p>Bugün evren sizinle birlikte! Uzun zamandır ertelediğiniz bir şey üzerinde harekete geçmek için harika bir zaman dilimi. İçsel sezgilerinizi dinleyin ve size sunulan fırsatları değerlendirin. Şans, cesur olanları sever, bu yüzden cesur olun ve adım atın. Yeni bir başlangıç yapmak için bugün tam zamanı!</p>
+</div>
 
-        <div class="horoscope-sign">
-            <h2>Taurus (Boğa)</h2>
-            <p>Stability is your strength, but today a little risk could bring exciting opportunities. Step outside of your routine and embrace change.</p>
-        </div>
+<footer>
+    <p>&copy; 2025. Tüm Hakları Saklıdır.</p>
+</footer>
 
-        <div class="horoscope-sign">
-            <h2>Gemini (İkizler)</h2>
-            <p>Your energy shines brightly today. Expect surprises and unexpected opportunities. A small risk could lead to great rewards if you act quickly!</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Cancer (Yengeç)</h2>
-            <p>Listen to your inner voice today. Your intuition will guide you toward the right path. A lucky coincidence might bring a smile to your face.</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Leo (Aslan)</h2>
-            <p>The spotlight is on you today. Confidence is key – take advantage of the moment and aim high. The universe supports your ambitions.</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Virgo (Başak)</h2>
-            <p>Your attention to detail will give you an edge today. Keep your eyes open for hidden opportunities. A small gesture could lead to big rewards.</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Libra (Terazi)</h2>
-            <p>Balance is essential for you today, but don’t be afraid of surprises. Your harmony will guide you toward a lucky development.</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Scorpio (Akrep)</h2>
-            <p>Your magnetic charm is at its peak today! Don’t hesitate to take risks – the universe is opening doors for you. Make bold moves!</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Sagittarius (Yay)</h2>
-            <p>Adventure is in your nature, and today is the perfect day to embrace it. Try something new, take a leap, and let luck guide you to success.</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Capricorn (Oğlak)</h2>
-            <p>Your hard work is appreciated, but today the universe is offering extra support. Take a small risk and step outside your comfort zone.</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Aquarius (Kova)</h2>
-            <p>Your unique thoughts will lead you forward today. Being different is your strength, and it attracts good fortune. Take action now!</p>
-        </div>
-
-        <div class="horoscope-sign">
-            <h2>Pisces (Balık)</h2>
-            <p>Your imagination is your guide today. The universe may have a surprise in store for you. Follow your heart and see where it takes you.</p>
-        </div>
-    </div>
-
-    <footer>
-        <p>Copyright © 2025 Horoscope Inc. All rights reserved.</p>
-        <a href="#" class="button">Check Your Luck Today</a>
-    </footer>
 </body>
 </html>
